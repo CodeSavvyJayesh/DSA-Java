@@ -1,5 +1,5 @@
-package Java8Features;
-import java.util.*;
+package Java8Features.LambdaExpression;
+
 // basically function interface means interface having one abstract method
 @FunctionalInterface
 interface Greeting{

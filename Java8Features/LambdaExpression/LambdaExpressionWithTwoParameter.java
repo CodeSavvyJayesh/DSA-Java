@@ -1,5 +1,5 @@
-package Java8Features;
-import java.util.*;
+package Java8Features.LambdaExpression;
+
 @FunctionalInterface
 interface add{
     int sum(int a,int b);
