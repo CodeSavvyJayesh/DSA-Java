@@ -18,15 +18,15 @@ public class FindLuckyIntegerInArray {
              }
         }
         // traverse through the hashmap
-        int answer = -1;
-        for(int key:map.keySet())
+        int maxNum = -1;
+        for(int currentNum:map.keySet())
         {
-             if(key==map.get(key))
+             if(currentNum==map.get(currentNum) && currentNum > maxNum)
              {
-                  answer = Math.max(answer,key);
+                  maxNum = currentNum;
              }
         }
-        return answer;
+        return maxNum;
     }
     public static void main(String []args )
     {
